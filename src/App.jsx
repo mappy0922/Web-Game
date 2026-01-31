@@ -205,6 +205,42 @@ const Game = [
         season: "夏",
         image: "Game-Genre/RPG/対魔忍RPG.jpg"
     },
+    {
+        name: "転生したらスライムだった件 魔王と竜の建国譚",
+        genre: ["RPG"],
+        model: "iOS,Android",
+        seller: "Bandai Namco Entertainment Inc.",
+        link: "https://ten-sura-m.bn-ent.net/",
+        download: 9000000,
+        year: 2021,
+        month: 10,
+        season: "秋",
+        image: "Game-Genre/RPG/転生したらスライムだった件 魔王と竜の建国譚.jpg"
+    },
+    {
+        name: "ドラゴンポーカー",
+        genre: ["RPG"],
+        model: "iOS,Android",
+        seller: "Asobism.Co.,Ltd",
+        link: "https://www.asobism.co.jp/social/dragonpoker/",
+        download: 9000000,
+        year: 2013,
+        month: 5,
+        season: "春",
+        image: "Game-Genre/RPG/ドラゴンポーカー.jpg"
+    },
+    {
+        name: "メメントモリ",
+        genre: ["RPG"],
+        model: "iOS,Android,PC",
+        seller: "Bank of Innovation, Inc.",
+        link: "https://mememori-game.com/",
+        download: 4500000,
+        year: 2022,
+        month: 10,
+        season: "秋",
+        image: "Game-Genre/RPG/メメントモリ.jpg"
+    },
 ];
 export default function App() {
   return (

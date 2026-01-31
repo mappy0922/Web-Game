@@ -40,7 +40,7 @@ const Game = [
     {
         name: "ファイナルファンタジーXIV",
         genre: ["RPG"],
-        model: "PS4,PS5,PC,Xbox",
+        model: "PS4,PS5,PC,XboxSX",
         seller: "SQUARE ENIX",
         link: "https://www.finalfantasyxiv.com/freetrial/?utm_source=accesstrade&utm_medium=affiliate&utm_campaign=jp-freetrial&utm_content=affiliate-1&atnct=seff14_0100mmzp009j64-ff151fed48cbe91e97418554175f1e60",
         download: 30000000,
@@ -64,8 +64,8 @@ const Game = [
     {
         name: "勝利の女神：NIKKE",
         genre: ["RPG","アクション","シューティング"],
-        model: "iOS.Android",
-        seller: "Proxima Beta Pte.Limited",
+        model: "iOS.Android,PC",
+        seller: "Level Infinite",
         link: "https://nikke-jp.com/",
         download: 50000000,
         year: 2022,
@@ -88,7 +88,7 @@ const Game = [
     {
         name: "グランブルーファンタジー",
         genre: ["RPG"],
-        model: "iOS.Android",
+        model: "iOS.Android,PC",
         seller: "Cygames, Inc.",
         link: "https://granbluefantasy.jp/",
         download: 39000000,
@@ -108,6 +108,102 @@ const Game = [
         month: 4,
         season: "春",
         image: "Game-Genre/RPG/崩壊スターレイル.jpg"
+    },
+    {
+        name: "プリンセスコネクト!Re:Dive",
+        genre: ["RPG"],
+        model: "iOS,Android,PC",
+        seller: "Cygames, Inc.",
+        link: "https://priconne-redive.jp/",
+        download: 35000000,
+        year: 2018,
+        month: 2,
+        season: "冬",
+        image: "Game-Genre/RPG/プリンセスコネクト!Re Dive.jpg"
+    },
+    {
+        name: "ぷよぷよ!!クエスト",
+        genre: ["RPG","パズル"],
+        model: "iOS,Android",
+        seller: "SEGA",
+        link: "https://puyopuyoquest.sega-net.com/",
+        download: 30000000,
+        year: 2013,
+        month: 4,
+        season: "春",
+        image: "Game-Genre/RPG/ぷよぷよ!!クエスト.jpg"
+    },
+    {
+        name: "魔法少女まどか☆マギカ Magia Exedra",
+        genre: ["RPG"],
+        model: "iOS,Android,PC",
+        seller: "Aniplex, Inc.",
+        link: "https://madoka-exedra.com/",
+        download: 5000000,
+        year: 2025,
+        month: 3,
+        season: "冬",
+        image: "Game-Genre/RPG/魔法少女まどか☆マギカ Magia Exedra.jpg"
+    },
+    {
+        name: "原神",
+        genre: ["RPG","アクション"],
+        model: "iOS,Android,PS4,PS5,XboxSX,PC",
+        seller: "COGNOSPHERE PTE. LTD.",
+        link: "https://genshin.hoyoverse.com/ua/pc-download?utm_source=JP_Macan_JP_PC_New&hoyotrace_channel=macan_channel&lang=ja-jp&trackingId=21228281338057&transaction_id=2026013171b91769867393155404a&gid=212_3574_214",
+        download: 225000000,
+        year: 2020,
+        month: 9,
+        season: "夏",
+        image: "Game-Genre/RPG/原神.jpg"
+    },
+    {
+        name: "チェインクロニクル",
+        genre: ["RPG","シューティング"],
+        model: "iOS,Android",
+        seller: "SEGA",
+        link: "https://chronicle.sega-net.com/",
+        download: 27000000,
+        year: 2016,
+        month: 11,
+        season: "秋",
+        image: "Game-Genre/RPG/チェインクロニクル.jpg"
+    },
+    {
+        name: "ペルソナ5: The Phantom X",
+        genre: ["RPG"],
+        model: "iOS,Android,PC",
+        seller: "SEGA",
+        link: "https://p5x.jp/",
+        download: 5000000,
+        year: 2025,
+        month: 6,
+        season: "夏",
+        image: "Game-Genre/RPG/ペルソナ5 The Phantom X.jpg"
+    },
+    {
+        name: "",
+        genre: ["RPG"],
+        model: "",
+        seller: "",
+        link: "",
+        download: 160000000,
+        year: 2023,
+        month: 4,
+        season: "春",
+        image: "Game-Genre/RPG/.jpg"
+    },
+    {
+        name: "",
+        genre: ["RPG"],
+        model: "",
+        seller: "",
+        link: "",
+        download: 160000000,
+        year: 2023,
+        month: 4,
+        season: "春",
+        image: "Game-Genre/RPG/.jpg"
     },
 ];
 export default function App() {

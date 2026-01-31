@@ -33,7 +33,7 @@ const Game = [
 export default function App() {
   return (
     <div>
-      <h1>ゲーム ダウンロード数マップ制作段階中</h1>
+      <h1>ゲーム 全世界累計ダウンロード数マップ 制作段階中</h1>
     </div>
   );
 }

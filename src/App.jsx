@@ -240,7 +240,8 @@ const Game = [
         month: 10,
         season: "秋",
         image: "Game-Genre/RPG/メメントモリ.jpg"
-    },
+    },//ここまで20番目
+    
 ];
 export default function App() {
   return (

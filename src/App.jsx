@@ -1,8 +1,4 @@
 import { useState } from "react";
-import {
-  Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis,
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend
-} from "recharts";
 
 const Game = [
     {

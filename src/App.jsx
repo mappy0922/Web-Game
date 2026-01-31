@@ -182,28 +182,28 @@ const Game = [
         image: "Game-Genre/RPG/ペルソナ5 The Phantom X.jpg"
     },
     {
-        name: "",
+        name: "レスレリアーナのアトリエ",
         genre: ["RPG"],
-        model: "",
-        seller: "",
-        link: "",
-        download: 160000000,
+        model: "iOS,Android,PC",
+        seller: "コーエーテクモゲームス",
+        link: "https://www.gamecity.ne.jp/atelier/resleriana/",
+        download: 5000000,
         year: 2023,
-        month: 4,
-        season: "春",
-        image: "Game-Genre/RPG/.jpg"
+        month: 9,
+        season: "夏",
+        image: "Game-Genre/RPG/レスレリアーナのアトリエ.jpg"
     },
     {
-        name: "",
+        name: "対魔忍RPG",
         genre: ["RPG"],
-        model: "",
-        seller: "",
-        link: "",
-        download: 160000000,
-        year: 2023,
-        month: 4,
-        season: "春",
-        image: "Game-Genre/RPG/.jpg"
+        model: "Android,PC",
+        seller: "インフィニブレイン",
+        link: "https://games.dmm.com/detail/taimanin_rpg",
+        download: 2500000,
+        year: 2018,
+        month: 9,
+        season: "夏",
+        image: "Game-Genre/RPG/対魔忍RPG.jpg"
     },
 ];
 export default function App() {

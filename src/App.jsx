@@ -49,6 +49,30 @@ const Game = [
         season: "夏",
         image: "Game-Genre/RPG/ファイナルファンタジーXIV.jpg"
     },
+    {
+        name: "ヘブンバーンズレッド",
+        genre: ["RPG"],
+        model: "iOS.Android,Steam",
+        seller: "WFS, Inc.",
+        link: "https://heaven-burns-red.com/",
+        download: 6000000,
+        year: 2022,
+        month: 2,
+        season: "冬",
+        image: "Game-Genre/RPG/ヘブンバーンズレッド.jpg"
+    },
+    {
+        name: "勝利の女神：NIKKE",
+        genre: ["RPG","アクション","シューティング"],
+        model: "iOS.Android",
+        seller: "Proxima Beta Pte.Limited, Inc.",
+        link: "https://nikke-jp.com/",
+        download: 50000000,
+        year: 2022,
+        month: 11,
+        season: "秋",
+        image: "Game-Genre/RPG/勝利の女神NIKKE.jpg"
+    },
 ];
 export default function App() {
   return (

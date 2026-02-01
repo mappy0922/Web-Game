@@ -390,7 +390,137 @@ const Game = [
         month: 9,
         season: "夏",
         image: "Game-Genre/RPG/ドラゴンクエストウォーク.png"
+    },//ここまで30番目
+    {
+        name: "アナザーエデン 時空を超える猫",
+        genre: ["RPG"],
+        model: "iOS,Android,PC",
+        developer: "WFS, Inc.",
+        seller: "WFS, Inc.",
+        link: "https://another-eden.jp/",
+        download: 15000000,
+        year: 2017,
+        month: 4,
+        season: "春",
+        image: "Game-Genre/RPG/アナザーエデン 時空を超える猫.jpg"
     },
+    {
+        name: "ドラゴンクエストX オンライン",
+        genre: ["RPG"],
+        model: "iOS,Android,WiiU,Switch,PS4,PC",
+        developer: "SQUARE ENIX",
+        seller: "SQUARE ENIX",
+        link: "https://www.dqx.jp/",
+        download: 6000000,
+        year: 2012,
+        month: 8,
+        season: "夏",
+        image: "Game-Genre/RPG/ドラゴンクエストX オンライン.png"
+    },
+    {
+        name: "WIND BREAKER 不良たちの英雄譚",
+        genre: ["RPG"],
+        model: "iOS,Android,PC",
+        developer: "Aiming",
+        seller: "講談社",
+        link: "https://www.wb-rebelheroes.com/",
+        download: 2000000,
+        year: 2025,
+        month: 3,
+        season: "冬",
+        image: "Game-Genre/RPG/WIND BREAKER 不良たちの英雄譚.jpg"
+    },
+    {
+        name: "放置少女～百花繚乱の萌姫たち～",
+        genre: ["RPG","シミュレーション"],
+        model: "iOS,Android,PC",
+        developer: "C4 CONNECT Inc.",
+        seller: "C4 CONNECT K.K",
+        link: "https://hcsj.c4connect.co.jp/home",
+        download: 30000000,
+        year: 2017,
+        month: 3,
+        season: "冬",
+        image: "Game-Genre/RPG/放置少女～百花繚乱の萌姫たち～.jpg"
+    },
+    {
+        name: "ラストオリジン",
+        genre: ["RPG"],
+        model: "iOS,Android,PC",
+        developer: "SmartJoy",
+        seller: "GOP CO., Ltd.",
+        link: "https://www.last-origin.com/",
+        download: 4000000,
+        year: 2020,
+        month: 5,
+        season: "春",
+        image: "Game-Genre/RPG/ラストオリジン.jpg"
+    },
+    {
+        name: "",
+        genre: ["RPG"],
+        model: "",
+        developer: "",
+        seller: "",
+        link: "",
+        download: 35000000,
+        year: 2019,
+        month: 9,
+        season: "夏",
+        image: "Game-Genre/RPG/.jpg"
+    },
+    {
+        name: "",
+        genre: ["RPG"],
+        model: "",
+        developer: "",
+        seller: "",
+        link: "",
+        download: 35000000,
+        year: 2019,
+        month: 9,
+        season: "夏",
+        image: "Game-Genre/RPG/.jpg"
+    },
+    {
+        name: "",
+        genre: ["RPG"],
+        model: "",
+        developer: "",
+        seller: "",
+        link: "",
+        download: 35000000,
+        year: 2019,
+        month: 9,
+        season: "夏",
+        image: "Game-Genre/RPG/.jpg"
+    },
+    {
+        name: "",
+        genre: ["RPG"],
+        model: "",
+        developer: "",
+        seller: "",
+        link: "",
+        download: 35000000,
+        year: 2019,
+        month: 9,
+        season: "夏",
+        image: "Game-Genre/RPG/.jpg"
+    },
+    {
+        name: "",
+        genre: ["RPG"],
+        model: "",
+        developer: "",
+        seller: "",
+        link: "",
+        download: 35000000,
+        year: 2019,
+        month: 9,
+        season: "夏",
+        image: "Game-Genre/RPG/.jpg"
+    },//ここまで40番目
 ];
 export default function App() {
   return (

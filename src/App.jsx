@@ -7,7 +7,7 @@ export default function App() {
     const formatDownload = (num) => {
         if(num>=100000000) return (num/100000000).toFixed(1).replace(/\.0$/, "") + "億";
         if(num>=10000) return (num/10000).toFixed(1).replace(/\.0$/, "") + "万";
-        return num.toLocalString();
+        return num.toLocaleString();
     }
 
   return (
@@ -24,12 +24,15 @@ export default function App() {
                   }}
                 >
                     <img src={g.image} alt={g.name} />
+                    <span className="Copyright">©{g.name}</span>
                     <h3>{g.name}</h3>
                     <div className="Game-detail">
-                        <span>作品名 : {g.name}</span>
+                        <span>ジャンル名 : {g.genre.join(" , ")}</span>
+                        <span>プラットフォーム : {g.model.join(" , ")}</span>
                         <span>全世界累計ダウンロード数 : {formatDownload(g.download)}</span>
                         <span>開発社 : {g.developer}</span>
                         <span>販売元 : {g.seller}</span>
+                        <span>発売年月 : {g.year}年{g.month}月 ({g.season})</span>
                         <a
                           href={g.link}
                           target="_blank"

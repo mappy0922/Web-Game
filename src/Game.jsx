@@ -2,7 +2,7 @@ export const Game = [
     {
         name: "ブルーアーカイブ -Blue Archive-",
         genre: ["RPG"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "Nexon Games",
         seller: "Yostar, Inc.",
         link: "https://bluearchive.jp/",
@@ -15,7 +15,7 @@ export const Game = [
     {
         name: "アズールレーン",
         genre: ["RPG","シューティング"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "Shanghai Manjuu/Xiamen Yongshi",
         seller: "Yostar, Inc.",
         link: "https://www.azurlane.jp/",
@@ -28,7 +28,7 @@ export const Game = [
     {
         name: "Fate/Grand Order",
         genre: ["RPG"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "ディライトワークス",
         seller: "Aniplex Inc.",
         link: "https://www.fate-go.jp/",
@@ -41,7 +41,7 @@ export const Game = [
     {
         name: "ファイナルファンタジーXIV",
         genre: ["RPG"],
-        model: "PS4,PS5,PC,XboxSX",
+        model: ["PS4","PS5","PC","XboxSX"],
         developer: "SQUARE ENIX",
         seller: "SQUARE ENIX",
         link: "https://www.finalfantasyxiv.com/freetrial/?utm_source=accesstrade&utm_medium=affiliate&utm_campaign=jp-freetrial&utm_content=affiliate-1&atnct=seff14_0100mmzp009j64-ff151fed48cbe91e97418554175f1e60",
@@ -54,7 +54,7 @@ export const Game = [
     {
         name: "ヘブンバーンズレッド",
         genre: ["RPG"],
-        model: "iOS.Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "WFS, Inc./Key",
         seller: "WFS, Inc./Yostar, Inc.",
         link: "https://heaven-burns-red.com/",
@@ -67,7 +67,7 @@ export const Game = [
     {
         name: "勝利の女神：NIKKE",
         genre: ["RPG","アクション","シューティング"],
-        model: "iOS.Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "Shift Up",
         seller: "Level Infinite",
         link: "https://nikke-jp.com/",
@@ -80,7 +80,7 @@ export const Game = [
     {
         name: "PSO2 ニュージェネシス",
         genre: ["RPG"],
-        model: "Switch,PS4,PC",
+        model: ["Switch","PS4","PC"],
         developer: "SEGA",
         seller: "SEGA",
         link: "https://lp.pso2.jp/",
@@ -93,7 +93,7 @@ export const Game = [
     {
         name: "グランブルーファンタジー",
         genre: ["RPG"],
-        model: "iOS.Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "Cygames, Inc.",
         seller: "Cygames, Inc.",
         link: "https://granbluefantasy.jp/",
@@ -106,7 +106,7 @@ export const Game = [
     {
         name: "崩壊：スターレイル",
         genre: ["RPG"],
-        model: "iOS.Android,PS5,PC",
+        model: ["iOS","Android","PS5","PC"],
         developer: "miHoYo",
         seller: "COGNOSPHERE PTF. LTD.",
         link: "https://hsr.hoyoverse.com/ja-jp/",
@@ -119,7 +119,7 @@ export const Game = [
     {
         name: "プリンセスコネクト!Re:Dive",
         genre: ["RPG"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "Cygames, Inc.",
         seller: "Cygames, Inc.",
         link: "https://priconne-redive.jp/",
@@ -132,7 +132,7 @@ export const Game = [
     {
         name: "ぷよぷよ!!クエスト",
         genre: ["RPG","パズル"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "SEGA",
         seller: "SEGA",
         link: "https://puyopuyoquest.sega-net.com/",
@@ -145,7 +145,7 @@ export const Game = [
     {
         name: "魔法少女まどか☆マギカ Magia Exedra",
         genre: ["RPG"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "Pokelabo, Inc./f4samurai, Inc.",
         seller: "Aniplex, Inc.",
         link: "https://madoka-exedra.com/",
@@ -158,7 +158,7 @@ export const Game = [
     {
         name: "原神",
         genre: ["RPG","アクション"],
-        model: "iOS,Android,PS4,PS5,XboxSX,PC",
+        model: ["iOS","Android","PS4","PS5","XboxSX","PC"],
         developer: "miHoYo",
         seller: "COGNOSPHERE PTE. LTD.",
         link: "https://genshin.hoyoverse.com/ua/pc-download?utm_source=JP_Macan_JP_PC_New&hoyotrace_channel=macan_channel&lang=ja-jp&trackingId=21228281338057&transaction_id=2026013171b91769867393155404a&gid=212_3574_214",
@@ -171,7 +171,7 @@ export const Game = [
     {
         name: "チェインクロニクル",
         genre: ["RPG","シューティング"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "SEGA",
         seller: "SEGA",
         link: "https://chronicle.sega-net.com/",
@@ -184,7 +184,7 @@ export const Game = [
     {
         name: "ペルソナ5: The Phantom X",
         genre: ["RPG"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "Black Wings Game Studio",
         seller: "SEGA",
         link: "https://p5x.jp/",
@@ -197,7 +197,7 @@ export const Game = [
     {
         name: "レスレリアーナのアトリエ",
         genre: ["RPG"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "Gust/Team NINJA",
         seller: "コーエーテクモゲームス",
         link: "https://www.gamecity.ne.jp/atelier/resleriana/",
@@ -210,7 +210,7 @@ export const Game = [
     {
         name: "対魔忍RPG",
         genre: ["RPG"],
-        model: "Android,PC",
+        model: ["Android","PC"],
         developer: "Lilith Soft",
         seller: "インフィニブレイン",
         link: "https://games.dmm.com/detail/taimanin_rpg",
@@ -223,7 +223,7 @@ export const Game = [
     {
         name: "転生したらスライムだった件 魔王と竜の建国譚",
         genre: ["RPG"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "WFS, Inc.",
         seller: "Bandai Namco Entertainment Inc.",
         link: "https://ten-sura-m.bn-ent.net/",
@@ -236,7 +236,7 @@ export const Game = [
     {
         name: "ドラゴンポーカー",
         genre: ["RPG"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "Asobism.Co.,Ltd",
         seller: "Asobism.Co.,Ltd",
         link: "https://www.asobism.co.jp/social/dragonpoker/",
@@ -249,7 +249,7 @@ export const Game = [
     {
         name: "メメントモリ",
         genre: ["RPG"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "Bank of Innovation, Inc.",
         seller: "Bank of Innovation, Inc.",
         link: "https://mememori-game.com/",
@@ -262,7 +262,7 @@ export const Game = [
     {
         name: "D×2 真・女神転生リベレーション",
         genre: ["RPG"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "SEGA",
         seller: "SEGA",
         link: "https://d2-megaten-l.sega.jp/",
@@ -275,7 +275,7 @@ export const Game = [
     {
         name: "白猫プロジェクト NEW WORLD’S",
         genre: ["RPG","アクション"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "COLOPL, Inc.",
         seller: "COLOPL, Inc.",
         link: "https://colopl.co.jp/shironekoproject/",
@@ -288,7 +288,7 @@ export const Game = [
     {
         name: "モンスターストライク",
         genre: ["RPG","アクション"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "MIXI",
         seller: "MIXI",
         link: "https://www.monster-strike.com/",
@@ -301,7 +301,7 @@ export const Game = [
     {
         name: "ゼンレスゾーンゼロ",
         genre: ["RPG","アクション"],
-        model: "iOS,Android,PS5,XboxSX,PC",
+        model: ["iOS","Android","PS5","XboxSX","PC"],
         developer: "HoYoverse",
         seller: "COGNOSPHERE PTE. LTD.",
         link: "https://zenless.hoyoverse.com/ua?utm_source=ua&utm_medium=MacanPC&utm_campaign=ZZZ-JP-PC-1-new-MacanPC-20241023-S2S&trackingId=21228288319014&transaction_id=20260201b56b1769932388161359a&lang=ja-jp&gid=212_3574_214",
@@ -314,7 +314,7 @@ export const Game = [
     {
         name: "ガーディアンテイルズ",
         genre: ["RPG"],
-        model: "iOS,Android,Switch",
+        model: ["iOS","Android","Switch"],
         developer: "KONG STUDIO INC",
         seller: "KONG STUDIOS INC",
         link: "https://guardiantales.jp/",
@@ -327,7 +327,7 @@ export const Game = [
     {
         name: "共闘ことばRPG コトダマン",
         genre: ["RPG"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "MIXI",
         seller: "MIXI",
         link: "https://kotodaman.jp/",
@@ -340,7 +340,7 @@ export const Game = [
     {
         name: "ファイナルファンタジーVII エバークライシス",
         genre: ["RPG"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "Applibot, Inc.",
         seller: "SQUARE ENIX",
         link: "https://jp.ffviiec.com/",
@@ -353,7 +353,7 @@ export const Game = [
     {
         name: "ラストクラウディア",
         genre: ["RPG"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "AIDIS Inc.",
         seller: "AIDIS Inc.",
         link: "https://lastcloudia.com/",
@@ -366,7 +366,7 @@ export const Game = [
     {
         name: "ユミアのアトリエ ～追憶の錬金術士と幻創の地～",
         genre: ["RPG"],
-        model: "Switch,PS4,PS5,XboxSX,XboxOne,PC",
+        model: ["Switch","PS4","PS5","XboxSX","XboxOne","PC"],
         developer: "Gust",
         seller: "コーエーテクモゲームス",
         link: "https://atelier.games/yumia/jp/",
@@ -379,7 +379,7 @@ export const Game = [
     {
         name: "ドラゴンクエストウォーク",
         genre: ["RPG"],
-        model: "iOS,Android",
+        model: ["iOS","Android"],
         developer: "コロプラ",
         seller: "SQUARE ENIX",
         link: "https://www.dragonquest.jp/walk/",
@@ -392,7 +392,7 @@ export const Game = [
     {
         name: "アナザーエデン 時空を超える猫",
         genre: ["RPG"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "WFS, Inc.",
         seller: "WFS, Inc.",
         link: "https://another-eden.jp/",
@@ -405,7 +405,7 @@ export const Game = [
     {
         name: "ドラゴンクエストX オンライン",
         genre: ["RPG"],
-        model: "iOS,Android,WiiU,Switch,PS4,PC",
+        model: ["iOS","Android","WiiU","Switch","PS4","PC"],
         developer: "SQUARE ENIX",
         seller: "SQUARE ENIX",
         link: "https://www.dqx.jp/",
@@ -418,7 +418,7 @@ export const Game = [
     {
         name: "WIND BREAKER 不良たちの英雄譚",
         genre: ["RPG"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "Aiming",
         seller: "講談社",
         link: "https://www.wb-rebelheroes.com/",
@@ -431,7 +431,7 @@ export const Game = [
     {
         name: "放置少女～百花繚乱の萌姫たち～",
         genre: ["RPG","シミュレーション"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "C4 CONNECT Inc.",
         seller: "C4 CONNECT K.K",
         link: "https://hcsj.c4connect.co.jp/home",
@@ -444,7 +444,7 @@ export const Game = [
     {
         name: "ラストオリジン",
         genre: ["RPG"],
-        model: "iOS,Android,PC",
+        model: ["iOS","Android","PC"],
         developer: "SmartJoy",
         seller: "GOP CO., Ltd.",
         link: "https://www.last-origin.com/",
@@ -457,7 +457,7 @@ export const Game = [
     {
         name: "",
         genre: ["RPG"],
-        model: "",
+        model: [],
         developer: "",
         seller: "",
         link: "",
@@ -470,7 +470,7 @@ export const Game = [
     {
         name: "",
         genre: ["RPG"],
-        model: "",
+        model: [],
         developer: "",
         seller: "",
         link: "",
@@ -483,7 +483,7 @@ export const Game = [
     {
         name: "",
         genre: ["RPG"],
-        model: "",
+        model: [],
         developer: "",
         seller: "",
         link: "",
@@ -496,7 +496,7 @@ export const Game = [
     {
         name: "",
         genre: ["RPG"],
-        model: "",
+        model: [],
         developer: "",
         seller: "",
         link: "",
@@ -509,7 +509,7 @@ export const Game = [
     {
         name: "",
         genre: ["RPG"],
-        model: "",
+        model: [],
         developer: "",
         seller: "",
         link: "",

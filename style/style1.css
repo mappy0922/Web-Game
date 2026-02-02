@@ -6,11 +6,11 @@ h1{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  padding-right: 40px;
+  padding-right: 100px;
 }
 
 .Game-Circle {
-  width: 250px;
+  width: 320px;
   padding: 12px;
   border-radius: 16px;
   background: #f8f8f8;
@@ -46,6 +46,20 @@ h1{
   text-align: left;
 }
 
+.Game-detail a{
+    display: block;
+    margin: 0 auto;
+}
+
+.Copyright {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  opacity: 0.8;
+  text-align: right;
+}
+
 /* ホバー */
 .Game-Circle:hover {
   transform: translateY(-5px);
@@ -59,14 +73,14 @@ h1{
 }
 
 .Game-Link {
-    display: inline-block;
+    display: block;
     background-color: black;
     color: white;
-    padding: 4px 10px;
-    border-radius: 12px;
+    padding: 4px 12px;
+    border-radius: 9999px;
     font-size: 15px;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     width: fit-content;
 }
 
